@@ -69,6 +69,7 @@ def define_butterfly():
         image_mat[10, [i*j+c for j in range(1, 6)]] = other
         image_mat[11, [i*j+c for j in range(2, 6)]] = other
         image_mat[12, [i*j+c for j in range(3, 5)]] = other
+        image_mat[15, [i*j+c for j in range(3, 5)]] = other
 
     return image_mat
 
